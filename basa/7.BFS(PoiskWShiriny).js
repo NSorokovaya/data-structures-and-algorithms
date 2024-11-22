@@ -27,3 +27,5 @@ function breadthSearch(graph, start, end) {
 }
 
 console.log(breadthSearch(graph, "a", "f"));
+
+//Graph with equal edge weights (or no weights)
