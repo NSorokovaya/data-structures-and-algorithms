@@ -1,3 +1,4 @@
+//pre-order
 var binaryTreePaths = function (root) {
   if (!root) return [];
   let result = [];
