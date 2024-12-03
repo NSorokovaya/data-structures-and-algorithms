@@ -1,3 +1,5 @@
+//Use this pattern for exploring all paths or branches in graphs or trees.
+
 // iterative
 function DFS(graph, start) {
   let visited = new Set();
