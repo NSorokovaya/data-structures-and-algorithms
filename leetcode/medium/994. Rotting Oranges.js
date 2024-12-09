@@ -18,8 +18,6 @@ var orangesRotting = function (grid) {
   let maxTime = 0;
 
   while (queue.length > 0) {
-    let size = queue.length;
-
     let [m, n, time] = queue.shift();
     maxTime = Math.max(maxTime, time);
 
