@@ -1,3 +1,5 @@
+//Use this pattern when you need to perform multiple sum queries on a subarray or need to calculate cumulative sums.
+
 function prefixSum(arr) {
   let prefixSum = [arr[0]];
 

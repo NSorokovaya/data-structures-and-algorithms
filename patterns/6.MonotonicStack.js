@@ -1,3 +1,5 @@
+//Use this pattern for problems that require finding the next greater or smaller element.
+
 function nextGreaterElements(nums) {
   let stack = [];
   let result = [];

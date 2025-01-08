@@ -1,3 +1,5 @@
+// The Top 'K' Elements pattern finds the top k largest or smallest elements in an array or stream of data using heaps or sorting.
+
 function findTopKElements(nums, k) {
   let minHeap = [];
 
